@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">    
+        <title>WINC ACADEMY opdracht 8</title>
+    </head>
+    
+    
+    <body>
+
+        <header>
+            <div class='header'>
+                <h1>Header</h1>
+                <nav>
+                    <ul>
+                        <div class="menu"><a href="index.html">Home</a></div>                
+                        <div class="menu"><a href="about.html">About</a></div>
+                        <div class="menu"><a href="#">Recepten</a></div>
+                        <div class="menu"><a href="deelrecept.html">Jouw recept</a></div> 
+                        <div class="menu"><a href="contact.html">Contact</a></div>                                            
+                    </ul> 
+                </nav>
+            </div>            
+        </header> 
+
+        <main>            
+            <div class='main'>
+
+                <form name="recept" method="POST" data-netlify="true">
+                    
+                    <div>
+                        <p><label for="name">naam</label></p></br> 
+                            <input type="name" type="name" id="name"/>
+                    </div>
+                    
+                    <div>
+                        <p><label for="email">e-mail</label></p></br> 
+                            <input type="e-mail" name="e-mail"/>
+                    </div>
+
+                    <div>
+                        <p><label for="phone">tel nummer</label></p></br> 
+                            <input type="tel" name="phone" id="phone"/>                      
+                    </div>
+
+                    <div>
+                        <p><label>geboortedatum</label></p></br>
+                            <input type="date" name="date" id="date" min="2019-06-10"/>                       
+                    </div>
+
+                    <div>
+                        <p><label for="age">Age</label></p>
+                        <input type="number" name="age" id="age" min="1" max="200" step="5" />
+                    </div>
+
+                    <hr />
+
+                    <div>
+                        <p>Gender</p>
+                        <div>
+                          <p><label for="male">Male</label></p>
+                          <input type="radio" name="gender" id="male" value="male" />
+                        </div>
+                        
+                        <div>
+                          <p><label for="female">Female</label></p>
+                          <input type="radio" name="gender" id="female" value="female" />
+                        </div>
+                    
+                    </div>
+
+                    <div>
+                        <p>Favoriete keuken</p></br>
+                            <p><input type="checkbox" name="Frans" id="Frans"/>
+                                <label for="frans">Frans</label></p>
+                            
+                            <p><input type="checkbox" name="Italiaans" id="Italiaans"/>
+                                <label for="Italiaans">Italiaans</label></p>
+
+                            <p><input type="checkbox" name="Spaans" id="Spaans"/>
+                                <label for="Spaans">Spaans</label></p> 
+                            
+                            <p><input type="checkbox" name="Japans" id="Japans"/>
+                                <label for="Japans">Japans</label></p>                          
+                    </div>
+
+                    <div>
+                        <p><label>Kies je favo kleur</label></p></br>                            
+                            <input type="color" name="color" id="color"/>                                                     
+                    </div>
+
+                    <div>
+                        <p><label for="bio">Vertel iets over jezelf</label></p></br>
+                        <textarea id="bio" name="bio"></textarea>                        
+                    </div>
+
+                    <div>
+                        <p><label for="file">Upload je recept</label></p></br>
+                        <input id="file" type="file" name="file"/>                        
+                    </div>
+
+                    <div>
+                        <p><label for="url">Link naar je website</label></p></br>
+                        <input type="url" name="url" id="url"/>                        
+                    </div>
+
+                    <div>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div> 
+
+                </form>
+               
+
+            </div>
+        </main> 
+
+        <footer>
+            <div class='footer'>
+                <h1>Handige links</h1>
+                    <nav>
+                        <ul>                    
+                            <li><a href="https://app.netlify.com/drop" target="_blank">Link naar Netlify</a></li>
+                            <li><a href="https://quirky-albattani-e47e6c.netlify.app/" target="_blank">Link naar opdracht 3 via Netlify</a></li>
+                            <li><a href="https://board.wincacademy.nl/learner/courseinfo/id:197" target="_blank">Link naar de WINC Curus</a></li>
+                            <li><a href="https://www.w3schools.com/cssref/" target="_blank">Link naar css styles references</a></li>
+                            <li><a href="https://cssdeck.com/blog/12-creative-and-cool-uses-for-the-css-border-property/#.XV6ropP7RTY" target="_blank">12 creative ways for the border property</a></li>
+                            <li><a href="https://www.w3schools.com/html/html_form_elements.asp" target="_blank">Link naar form elements</a></li>
+                        </ul> 
+                    </nav> 
+                </div>
+        </footer>    
+
+    </body>
+</html>
